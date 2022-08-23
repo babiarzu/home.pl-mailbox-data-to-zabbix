@@ -2,7 +2,7 @@ import csv
 import os
 
 # zabbix sender path - use hard coded or env variable
-PATH = "C:/\"Program Files\"/\"Zabbix Agent\"/zabbix_sender.exe"
+PATH = "C:/your/path/zabbix_sender.exe"
 
 
 def zabbix_sender():
@@ -19,7 +19,6 @@ def zabbix_sender():
     for val in arr[1::]:
         email = val[0]
         used = int(val[4])
-
         size = int(val[5])
         pused = int(float(used) / float(size) * 100)
 
