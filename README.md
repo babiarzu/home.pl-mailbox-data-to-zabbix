@@ -7,3 +7,10 @@ It is using **Selenium** with MS Edge Webdriver, in my case in ***headless mode*
 ## Eksport danych z panelu home.pl: nazwy, pojemności, zajętego miejsca.
 Ten skrypt pobiera plik csv, wyciąga z niego odpowiednie dane, a następnie wysyła je do zabbixa.
 Skrypt wykorzystuje **Selenium** z MS Edge Webdriver, w moim przypadku w trybie ***headless***.
+
+
+## Screenshot from zabbix prototypes
+## Zrzut ekranu z zabbixa, zakładka prototypy pozycji
+
+![App Screenshot](https://i.imgur.com/mNSU2Cj.png)
+
