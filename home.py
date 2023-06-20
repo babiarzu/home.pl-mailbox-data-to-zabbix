@@ -27,6 +27,12 @@ def home_downloader():
 
     driver.get(url="https://panel.home.pl/")
 
+    #shadow-host (open)
+    time.sleep(3)
+    shadow_host = driver.find_element(By.ID, "cmpwrapper")
+    shadow_root = shadow_host.shadow_root
+    shadow_root.find_element(By.CSS_SELECTOR, ".cmpboxbtn").click()
+    
     login = driver.find_element(By.NAME, "login")
     password = driver.find_element(By.NAME, "password")
 
